@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- 生产库 -->
+<!-- <c3p0-config>  
+  <default-config>    
+    <property name="user">rmgd</property>  
+    <property name="password">Gxgpdi_2017</property>  
+    <property name="driverClass">oracle.jdbc.driver.OracleDriver</property>  
+    <property name="jdbcUrl">jdbc:oracle:thin:@192.168.255.57:1521/rmgd</property>  
+    <property name="initialPoolSize">10</property>  
+    <property name="maxIdleTime">30</property>  
+    <property name="maxPoolSize">60</property>  
+    <property name="minPoolSize">10</property>  
+  </default-config>  
+</c3p0-config>  --> 
+
+<!-- 内网连开发库 -->
+<c3p0-config>  
+  <default-config>    
+    <property name="user">rmgd</property>  
+    <property name="password">b</property>  
+    <property name="driverClass">oracle.jdbc.driver.OracleDriver</property>  
+    <property name="jdbcUrl">jdbc:oracle:thin:@172.16.91.188:1521/orcl01</property>  
+    <property name="initialPoolSize">10</property>  
+    <property name="maxIdleTime">30</property>  
+    <property name="maxPoolSize">60</property>  
+    <property name="minPoolSize">10</property>  
+  </default-config>  
+</c3p0-config>
+
+<!-- 内网连测试库 -->
+<!-- <c3p0-config>  
+  <default-config>    
+    <property name="user">rmgd</property>  
+    <property name="password">a</property>  
+    <property name="driverClass">oracle.jdbc.driver.OracleDriver</property>  
+    <property name="jdbcUrl">jdbc:oracle:thin:@172.16.91.178:1521:orcl01</property>  
+    <property name="initialPoolSize">10</property>  
+    <property name="maxIdleTime">30</property>  
+    <property name="maxPoolSize">60</property>  
+    <property name="minPoolSize">10</property>  
+  </default-config>  
+</c3p0-config>   -->
+
